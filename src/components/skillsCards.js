@@ -7,7 +7,7 @@ export class skillsCards extends Component {
       <div className={this.props.class}>
         <section id="skills">
           <div className="skills skill_container">
-            <article className="skill item">
+            <article className="skills item">
               <div className="skills item-image"></div>
               <div
                 data-aos="fill-up"

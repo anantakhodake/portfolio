@@ -1,0 +1,204 @@
+.intro {
+  display: flex;
+  height: 90vh;
+  margin-top: 6rem;
+}
+/* left side styling */
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+}
+.i-name {
+  flex-direction: column;
+}
+.i-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 14px;
+  color: var(--gray);
+  margin-top: 2rem;
+}
+.i-icons {
+  display: flex;
+  gap: 0rem;
+}
+.i-icons > * {
+  transform: scale(0.5);
+  margin-bottom: -13rem;
+}
+.i-icons > *:hover {
+  cursor: pointer;
+}
+/* right side styling */
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.6);
+  top: -7rem;
+  margin-left: 8rem;
+}
+.i-right > :nth-child(2) {
+  top: -1rem;
+  transform: scale(0.77);
+  left: 8rem;
+}
+.i-right > :nth-child(3) {
+  transform: scale(0.8);
+  left: 7.5rem;
+}
+.Edu1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  text-align: center;
+  align-items: right;
+  width: 115%;
+}
+.Branch {
+  margin-right: 2.3rem;
+  font-size: 1.7rem;
+}
+@media only screen and (min-width: 2048px) {
+  /* Center the page horizontally */
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Center the page vertically */
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .i-right > :nth-child(1) {
+    transform: scale(0.5);
+    top: -8rem;
+    left: -11rem;
+    overflow: hidden;
+  }
+  .i-right > :nth-child(2) {
+    top: -7rem;
+    transform: scale(0.67);
+    left: -3.5rem;
+    overflow: hidden;
+  }
+  .i-right > :nth-child(3) {
+    transform: scale(0.7);
+    top: -6.2rem;
+    left: -3.5rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .i-right > :nth-child(1) {
+    transform: scale(0.6);
+    top: -8rem;
+    left: -28rem;
+  }
+  .i-right > :nth-child(2) {
+    top: -7rem;
+    transform: scale(0.77);
+    left: -20rem;
+  }
+  .i-right > :nth-child(3) {
+    transform: scale(0.8);
+    top: -6rem;
+    left: -20.5rem;
+  }
+  .i-left {
+    margin-top: 20rem;
+    display: flex;
+    position: absolute;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .i-icons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .i-name > :nth-child(3) {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .i-right > :nth-child(1) {
+    transform: scale(0.5);
+    top: -11rem;
+    overflow: hidden;
+    margin-left: 8rem;
+  }
+  .i-right > :nth-child(2) {
+    top: -7rem;
+    transform: scale(0.67);
+    left: -20rem;
+    overflow: hidden;
+  }
+  .i-right > :nth-child(3) {
+    transform: scale(0.7);
+    top: -6rem;
+    left: -20.5rem;
+  }
+  .i-left {
+    margin-top: 20rem;
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    left: 2.5rem;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 2rem;
+  }
+  .Branch {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

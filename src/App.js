@@ -3,15 +3,16 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import MobileNavbar from "./components/MobileNavbar";
+import Introduction from "./components/Introduction";
 function App() {
-  return(
+  return (
     <div className="app">
       <Navbar />
-      <MobileNavbar/>
-       {/* <Skills /> */}
+      <MobileNavbar />
+      <Introduction />
+      <Skills />
     </div>
-  )
-  
+  );
 }
 
 export default App;
