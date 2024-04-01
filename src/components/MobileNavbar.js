@@ -1,12 +1,12 @@
 import React from "react";
-import "./Mobilenav.css";
+import "./MobileNavbar.css";
 import { Link } from "react-scroll";
 import { slide as Menu, ReactBurgerMenu } from "react-burger-menu";
 import cv from "./img/cv.png";
 import linkdin from "./img/linkedin.png";
 import github from "./img/github.png";
 
-const Mobilenav = () => {
+const MobileNavbar = () => {
   return (
     <Menu>
       <div className="mobilenav_wrapper">
@@ -109,4 +109,4 @@ const Mobilenav = () => {
   );
 };
 
-export default Mobilenav;
+export default MobileNavbar;
