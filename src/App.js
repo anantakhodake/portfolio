@@ -4,13 +4,15 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import MobileNavbar from "./components/MobileNavbar";
 import Introduction from "./components/Introduction";
+import Contact from "./components/Contact";
 function App() {
   return (
     <div className="app">
       <Navbar />
       <MobileNavbar />
       <Introduction />
-      <Skills />
+      {/* <Skills /> */}
+      <Contact />
     </div>
   );
 }
