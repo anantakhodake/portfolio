@@ -1,17 +1,19 @@
 import React from "react";
 import "./Skill.css";
-import css from "../img/cpp.png"
+import css from "../img/cpp.png";
 
 import img1 from "../img/cpp.png";
-import img2 from "../img/cpp.png";
-import img3 from "../img/cpp.png";
-import img4 from "../img/cpp.png";
-import img5 from "../img/cpp.png";
-import img6 from "../img/cpp.png";
-import img7 from "../img/cpp.png";
-import img8 from "../img/cpp.png";
-import img9 from "../img/cpp.png";
-import img10 from "../img/cpp.png";
+import img2 from "../img/css.png";
+import img3 from "../img/git.png";
+import img4 from "../img/github.png";
+import img5 from "../img/html.png";
+import img6 from "../img/js.png";
+import img7 from "../img/mongoDB.png";
+import img8 from "../img/sql.png";
+import img9 from "../img/php.png";
+import img10 from "../img/react.png";
+import img11 from "../img/postman.png";
+import { ReactTyped } from "react-typed";
 
 function Skill() {
   const info = [
@@ -45,15 +47,23 @@ function Skill() {
     {
       image: img10,
     },
+    {
+      image: img11,
+    },
   ];
   return (
     <>
-      <div className=" mt-3 skill-container w-2/3  border border-solid border-gray-700 flex flex-wrap items-center justify-center px-6 py-6  gap-10 rounded-[50px] ">
-        {info.map((items,index)=>{
-        return (
-        <img src={items.image} alt="" className="h-20 "/>
-        );
-        })}
+      <div className="flex justify-center flex-col gap-3">
+        <div className="flex justify-center items-center">
+          <ReactTyped className="text-5xl font-semibold" strings={["SKILLS"]} typeSpeed={150} loop />
+        </div>
+        <div className="flex justify-center">
+        <div className=" mt-3 skill-container w-2/3 border border-solid border-gray-700 flex flex-wrap items-center gap-12 justify-center px-6 py-6  rounded-[50px] ">
+          {info.map((items, index) => {
+            return <img src={items.image} alt="" className="h-20 " />;
+          })}
+        </div>
+        </div>
       </div>
     </>
   );

@@ -39,7 +39,7 @@ function Intro() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="h-12" src={cv} alt="" />
+            <img className="h-12  " src={cv} alt="" />
           </a>
           <a
             href="https://github.com/Pranav-Programmer"
@@ -58,8 +58,8 @@ function Intro() {
         </div>
       </div>
       {/* right intro container */}
-      <div className="img-container mx-12">
-        <img  src={ananta} className="h-96" alt=""/>
+      <div className="img-container mx-12 ">
+        <img  src={ananta} className="h-96 w-96" alt=""/>
       </div>
     </div>
   );
