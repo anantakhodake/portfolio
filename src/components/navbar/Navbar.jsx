@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className='navbar-wrapper px-3 py-3 flex justify-between '>
         <div className='left-name'>
-        <h1 className='text-2xl font-semibold text-slate-900'>Ananta</h1>
+        <h1 className='text-2xl font-semibold text-slate-900'>Ananta <span className='text-2xl font-semibold text-blue-800'>Khodake</span></h1>
         </div>
         <div className='right-wrapper flex justify-between w-1/2'>
             <div className=' flex gap-9 right-links'>
