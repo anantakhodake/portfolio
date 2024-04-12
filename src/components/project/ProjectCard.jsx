@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
-import cancer from "./img/cancer.jpeg";
+import cancer from "../img/cancer.jpeg";
 
 function ProjectCard() {
   return (
