@@ -6,12 +6,14 @@ import Skill from "./components/skill/Skill";
 import ProjectCard from "./components/project/ProjectCard";
 import ProjectCard1 from "./components/project/ProjectCard1";
 import ProjectCard3 from "./components/project/ProjectCard3";
+import Contact from "./components/contact/Contact";
 function App() {
   return (
     <div className="app">
       <Navbar/>
       <Intro />
       <Skill />
+      <Contact />
       {/* <ProjectCard3 /> */}
     </div>
   );
