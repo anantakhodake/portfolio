@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 import "./Contact.css";
-import location from "../img/location.png";
+import location1 from "../img/location1.jpeg";
+import gmail from '../img/gmail.png'
+import phone from '../img/phone.png'
 import shape from "../img/shape.png";
 import { ReactTyped } from "react-typed";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,11 +30,14 @@ inputs.forEach((input) => {
 });
 
 function Contact() {
+  useEffect(()=>{
+    Aos.init();
+  },[])
   return (
     <div>
       <div className="flex justify-center items-center mt-8">
         <ReactTyped
-          className="text-5xl font-semibold"
+          className="text-[30px] font-semibold"
           strings={["CONTACT"]}
           typeSpeed={150}
           loop
@@ -39,7 +46,7 @@ function Contact() {
       <div className="contact-container">
         <span className="big-circle"></span>
         <img src={shape} alt="" className="square" />
-        <div className="form" >
+        <div className="form" data-aos="flip-left" data-aos-duration="3000" style={{transformOrigin: '0px 0px'}} >
           <div className="contact-info">
             <h3 className="title">Lets gets in touch</h3>
             <p className="text">
@@ -48,16 +55,16 @@ function Contact() {
             </p>
             <div className="c-info">
               <div className="c-information">
-                <img src={location} alt="" className="icon" />
+                <img src={location1} alt="" className="icon" />
                 <p>PRPCEM Amaravati</p>
               </div>
               <div className="c-information">
-                <img src={location} alt="" className="icon" />
-                <p>PRPCEM Amaravati</p>
+                <img src={gmail} alt="" className="icon" />
+                <p>ananta.khodake02@gmail.com</p>
               </div>
               <div className="c-information">
-                <img src={location} alt="" className="icon" />
-                <p>PRPCEM Amaravati</p>
+                <img src={phone} alt="" className="icon" />
+                <p>9764268772</p>
               </div>
             </div>
             {/* connect with us by social media */}
@@ -105,7 +112,7 @@ function Contact() {
                 <span>Message</span>
               </div>
 
-              <input type="submit" className="btn" value="send" />
+              <input type="submit" className="cbtn" value="send" />
             </form>
           </div>
         </div>

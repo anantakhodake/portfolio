@@ -19,6 +19,9 @@ function ProjectCard() {
             instance, in some styles of writing, particularly journalistic
             styles, a paragraph can be just one sentence long.
           </p>
+          <div className="gbtn">
+          <div className="btn1"> <a>github</a></div>
+          </div>
         </div>
       </div>
     </div>

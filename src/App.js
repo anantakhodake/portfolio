@@ -7,14 +7,16 @@ import ProjectCard from "./components/project/ProjectCard";
 import ProjectCard1 from "./components/project/ProjectCard1";
 import ProjectCard3 from "./components/project/ProjectCard3";
 import Contact from "./components/contact/Contact";
+import ProjectCard2 from "./components/project/ProjectCard2";
 function App() {
   return (
     <div className="app">
-      <Navbar/>
+      {/* <Navbar/>
       <Intro />
       <Skill />
       <Contact />
-      {/* <ProjectCard3 /> */}
+      <ProjectCard1/> */}
+      <ProjectCard2 />
     </div>
   );
 }
