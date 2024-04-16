@@ -3,20 +3,19 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/introduction/Intro";
 import Skill from "./components/skill/Skill";
-import ProjectCard from "./components/project/ProjectCard";
-import ProjectCard1 from "./components/project/ProjectCard1";
-import ProjectCard3 from "./components/project/ProjectCard3";
 import Contact from "./components/contact/Contact";
-import ProjectCard2 from "./components/project/ProjectCard2";
+// import Footer from " ./components/footer/Footer";
+import Experience from "./components/experience/Experience";
+import Footer from "./components/footer/FooterCard";
 function App() {
   return (
     <div className="app">
-      {/* <Navbar/>
+      <Navbar/>
       <Intro />
       <Skill />
+      <Experience />
       <Contact />
-      <ProjectCard1/> */}
-      <ProjectCard2 />
+      <Footer/>
     </div>
   );
 }
