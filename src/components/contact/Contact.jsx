@@ -39,7 +39,7 @@ function Contact() {
       <div className="contact-container">
         <span className="big-circle"></span>
         <img src={shape} alt="" className="square" />
-        <div className="form">
+        <div className="form" >
           <div className="contact-info">
             <h3 className="title">Lets gets in touch</h3>
             <p className="text">

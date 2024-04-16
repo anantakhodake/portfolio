@@ -255,17 +255,6 @@
    background: linear-gradient(to bottom ,#1cd4af ,#159b80);
  }
 
-  /* .big-circle:after{
-   content: '';
-   height: 360px;
-   width: 360px;
-   position: absolute;
-   background-color: #fafafa;
-   border-radius: 50%;
-   top: calc(50% -180px);
-   left: calc(50% -180px);
- } */
-
  .big-circle:after{
    content: " ";
    position: absolute;
@@ -273,11 +262,13 @@
    height: 360px;
    border-radius: 50%;
    background-color: #fafafa;
-   top: calc(50% -180px);
-   left: calc(50% -180px);
+   left: 50%;
+   top: 50%;
+   margin-top:-180px;
+   margin-left:-180px;
  }
 
- .square{
+   .square{
    position: absolute;
    height: 400px;
    top: 50%;
