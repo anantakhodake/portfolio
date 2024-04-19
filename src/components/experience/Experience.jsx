@@ -14,7 +14,7 @@ const Experience = () => {
                 <ReactTyped strings={['EXPERIENCE']} typeSpeed={150} loop />
             </div>
                 <div className="contents" id="Experience">
-                <div className="e-box" data-aos="fade-right" data-aos-duration="2000">
+                {/* <div className="e-box" data-aos="fade-right" data-aos-duration="2000">
                         <h4>January 2023 - July 2023</h4>
                         <h3>ACE Online</h3>
                         <h5>SDE Intern</h5>
@@ -25,7 +25,7 @@ const Experience = () => {
                         <h3>ACE Online</h3>
                         <h5>SDE Intern</h5>
                         <p>I gained practical experience in web development, focusing on frontend and backend technologies. I collaborated with the frontend team to develop an OTS platform, implementing key features such as user authentication, API integration, and React routing.</p>
-                    </div>
+                    </div> */}
                     <div className="e-box" data-aos="fade-right" data-aos-duration="2000">
                         <h4>Apr 2023 - June 2023</h4>
                         <h3>ARK DEVS</h3>

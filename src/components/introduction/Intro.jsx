@@ -3,8 +3,7 @@ import "./Intro.css";
 import cv from "../img/cv.png"
 import github from "../img/github.png"
 import linkdin from "../img/linkedin.png"
-import ananta from "../img/ananta.jpg"
-
+import ananta2 from "../img/ananta2.png"
 function Intro() {
   return (
     <div className="intro-container flex justify-between items-center mt-20">
@@ -58,8 +57,8 @@ function Intro() {
         </div>
       </div>
       {/* right intro container */}
-      <div className="img-container mx-12 ">
-        <img  src={ananta} className="h-96 w-96" alt=""/>
+      <div className="img-container mx-12 h-96 w-92 overflow-hidden  rounded-[21px] ">
+        <img  src={ananta2} className="h-[100%] w-[100%]  " alt=""/>
       </div>
     </div>
   );

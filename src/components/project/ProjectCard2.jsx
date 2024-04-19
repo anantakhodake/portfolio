@@ -46,16 +46,21 @@ let i = 1;
 function project() {
   return (
     <div className='project'>
-         <div className='All-header'>    
-          <ReactTyped strings={['PROJECTS']} typeSpeed={150} loop />
-         </div>
+         <div className="flex justify-center items-center mt-8">
+        <ReactTyped
+          className="text-[30px] font-semibold"
+          strings={["CONTACT"]}
+          typeSpeed={150}
+          loop
+        />
+      </div>
        <main id='project'>
           {
           info.map(function (data) {
             return <Card IMG={data.image} name={data.name} Link={data.link} GitHub={data.github} Border={data.border} BoxShadow={data.boxShadow} color={data.color} text={data.text} text1={data.text1} text2={data.text2}  class={`div${i++}`} key={i}/>
           })}
         </main>
-        <p className='more' style={{ marginLeft:'87%', marginTop:'2.5rem'}}><a href="https://github.com/Pranav-Programmer?tab=repositories" target="_blank" rel="noopener noreferrer">More project</a></p>
+        <p className='more' style={{ marginLeft:'87%', marginTop:'2.5rem'}}><a className='a-project' href="https://github.com/anantakhodake?tab=repositories" target="_blank" rel="noopener noreferrer">More project</a></p>
     </div>
   )
 }

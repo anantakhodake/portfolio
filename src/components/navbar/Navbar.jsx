@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Navbar.css";
-import { Link } from "react-scroll";
+import { Link, ScrollLink } from 'react-scroll';
 
 function Navbar() {
   return (
@@ -12,17 +12,17 @@ function Navbar() {
             <div className=' flex gap-9 right-links'>
             <ul className='flex gap-9 text-2xl font-normal list-none hover:text-blue-600'>
             <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+              <Link activeClass='active' to="Navbar" spy={true} smooth={true}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="skill" spy={true} smooth={true}>
+              <Link Link to="skill" spy={true} smooth={true}>
                 Skill
               </Link>
             </li>
             <li>
-              <Link to="project" spy={true} smooth={true}>
+              <Link  to="project" spy={true} smooth={true}>
                 Project
               </Link>
             </li>
