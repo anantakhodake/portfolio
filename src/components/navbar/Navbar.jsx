@@ -1,23 +1,23 @@
 import React from 'react'
 import "./Navbar.css";
-import { Link, ScrollLink } from 'react-scroll';
+import { Element, Link, ScrollLink } from 'react-scroll';
 
 function Navbar() {
   return (
-    <div className='navbar-wrapper px-3 py-3 flex justify-between '>
+    <div className='navbar-wrapper px-3 py-3 flex justify-between ' id='Navbar'>
         <div className='left-name'>
         <h1 className='text-2xl font-semibold text-slate-900'>Ananta <span className='text-2xl font-semibold text-blue-800'>Khodake</span></h1>
         </div>
         <div className='right-wrapper flex justify-between w-1/2'>
-            <div className=' flex gap-9 right-links'>
-            <ul className='flex gap-9 text-2xl font-normal list-none hover:text-blue-600'>
+            <div className=' n-right flex gap-9 right-links'>
+            <ul className='flex gap-9 text-2xl font-normal list-none'>
             <li>
-              <Link activeClass='active' to="Navbar" spy={true} smooth={true}>
+              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                 Home
               </Link>
             </li>
             <li>
-              <Link Link to="skill" spy={true} smooth={true}>
+              <Link  to="skill" spy={true} smooth={true}>
                 Skill
               </Link>
             </li>

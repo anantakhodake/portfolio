@@ -1,0 +1,4 @@
+.n-right ul li:hover{
+    color: blue;
+    cursor: pointer;
+}

@@ -53,12 +53,12 @@ function Skill() {
   ];
   return (
     <>
-      <div className="flex justify-center flex-col gap-3">
+      <div className="flex justify-center flex-col gap-3" >
         <div className="flex justify-center items-center">
           <ReactTyped className="text-[30px] font-semibold" strings={["SKILLS"]} typeSpeed={150} loop />
         </div>
         <div className="flex justify-center">
-        <div className=" mt-3 skill-container w-5/6  border border-solid border-gray-700 flex flex-wrap items-center gap-12 justify-center px-6 py-6  rounded-[50px] ">
+        <div className=" mt-3 skill-container w-5/6  border border-solid border-gray-700 flex flex-wrap items-center gap-12 justify-center px-6 py-6  rounded-[50px] " id="skill">
           {info.map((items, index) => {
             return(
               <div data-aos="flip-up" data-aos-duration="700" style={{transformOrigin: '0px 0px'}}><img src={items.image} alt="" className="h-20 " /></div>

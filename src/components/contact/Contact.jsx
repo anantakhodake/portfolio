@@ -43,7 +43,7 @@ function Contact() {
           loop
         />
       </div>
-      <div className="contact-container">
+      <div className="contact-container" id="contact">
         <span className="big-circle"></span>
         <img src={shape} alt="" className="square" />
         <div className="form" data-aos="flip-left" data-aos-duration="3000" style={{transformOrigin: '0px 0px'}} >
@@ -71,10 +71,10 @@ function Contact() {
             <div className="social-media">
               <p>Connect with us</p>
               <div className="social-icon">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ananta-khodake-a8ab73229/">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a href="#">
+                <a href="https://github.com/anantakhodake">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a href="#">

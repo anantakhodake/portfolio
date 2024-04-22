@@ -48,14 +48,14 @@ export class Card extends Component {
               <div className="container">
                 <div className="btn">
                   <a
-                    href={this.props.GitHub}
+                    href="https://github.com/anantakhodake"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Github
                   </a>
                 </div>
-                <div className="btn">
+                {/* <div className="btn">
                   <a
                     href={this.props.Link}
                     target="_blank"
@@ -63,7 +63,7 @@ export class Card extends Component {
                   >
                     Link
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -29,6 +29,7 @@ const info = [
       text1:'• It employs deep learning algorithms to perform real-time face recognition, allowing users to mark attendance effortlessly.',
       text2:'• With its intuitive interface and accurate face recognition capabilities, this system simplifies attendance management for various applications.',               
     },
+    
     {
       name: 'TextUp',
       link: 'https://text-up.netlify.app/', // Link to the project
@@ -49,7 +50,7 @@ function project() {
          <div className="flex justify-center items-center mt-8">
         <ReactTyped
           className="text-[30px] font-semibold"
-          strings={["CONTACT"]}
+          strings={["PROJECT"]}
           typeSpeed={150}
           loop
         />

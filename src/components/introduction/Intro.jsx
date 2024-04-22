@@ -10,7 +10,7 @@ function Intro() {
       {/* left introduction container containing some personal detail */}
       <div className="left-intro-container w-2/3 flex flex-col items-start gap-12 p-8">
         <div className="left-iname flex">
-          <h1 className="text-6xl font-bold text-gray-700">
+          <h1 className="text-6xl font-bold text-gray-700 "  >
             Ananta <span className="text-6xl text-blue-700 font-bold">Khodake</span>
           </h1>
         </div>
@@ -34,21 +34,21 @@ function Intro() {
         {/* social media links linkdin github and resume */}
         <div className="icons flex gap-4">
           <a
-            href="https://drive.google.com/file/d/1oAJLQR9DvUEdxBCpe6TuleInk0yc-hBI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1fgXy8MjlIF4q6vOE2_i_06UxujWAVmFG/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img className="h-12  " src={cv} alt="" />
           </a>
           <a
-            href="https://github.com/Pranav-Programmer"
+            href="https://github.com/anantakhodake"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img className="h-12" src={github} alt="" />
           </a>
           <a
-            href="https://www.linkedin.com/in/pranav-dharme/"
+            href="https://www.linkedin.com/in/ananta-khodake-a8ab73229/"
             target="_blank"
             rel="noopener noreferrer"
           >
