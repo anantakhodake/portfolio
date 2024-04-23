@@ -10,7 +10,7 @@ const Experience = () => {
     <div className="container-experience" id="Experience">
         <div className="row">
             <section className="col">
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mt-48">
         <ReactTyped
           className="text-[30px] font-semibold"
           strings={["EXPERIENCE"]}
