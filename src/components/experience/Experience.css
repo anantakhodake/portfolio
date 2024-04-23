@@ -2,7 +2,7 @@
 .container-experience {
     position: relative;
     width: 100%;
-    min-height:auto;
+    /* min-height:auto; */
     padding: 2rem;
     background-color: transparent;
     overflow: hidden;

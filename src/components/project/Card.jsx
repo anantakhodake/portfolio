@@ -33,7 +33,10 @@ export class Card extends Component {
                     <p>{this.props.name}</p>
                   </article>
                 </div>
-                <div className="flip-card-back">
+                <div
+                  className="flip-card-back"
+                  style={{ background: this.props.color }}
+                >
                   <p className="flip-text">
                     {this.props.text}
                     <br></br>
@@ -48,7 +51,7 @@ export class Card extends Component {
               <div className="container">
                 <div className="btn">
                   <a
-                    href="https://github.com/anantakhodake"
+                    href={this.props.GitHub}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

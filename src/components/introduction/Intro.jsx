@@ -23,12 +23,9 @@ function Intro() {
         {/* personal detail */}
         <div className="detail-container">
           <p className="text-lg text-gray-950">
-            As a fourth-year undergraduate I have gained valuable experience in
-            web development through internships and have a strong foundation in
-            programming and development languages. My internship at ACE Online
-            allowed me to work with React.js, Redux, Node.js, and MongoDB,
-            contributing to the development of an online test series platform. I
-            have completed various projects, including TextUp,bchjbjbchjgafgjgfjwggg
+            A meticulous & organized fresher passionate about learning and implementing new technologies.
+            A bachelor's degree in computer science and engineering has improve my proficiency in technical skills and i am looking forward to 
+            to working in a competative envirnment that motivates me to enhance my technical knowledge.
           </p>
         </div>
         {/* social media links linkdin github and resume */}

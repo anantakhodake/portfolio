@@ -10,9 +10,14 @@ const Experience = () => {
     <div className="container-experience" id="Experience">
         <div className="row">
             <section className="col">
-            <div className='All-header' style={{margin: '7% 0 2% 0'}}>  
-                <ReactTyped strings={['EXPERIENCE']} typeSpeed={150} loop />
-            </div>
+            <div className="flex justify-center items-center">
+        <ReactTyped
+          className="text-[30px] font-semibold"
+          strings={["EXPERIENCE"]}
+          typeSpeed={150}
+          loop
+        />
+      </div>
                 <div className="contents" id="Experience">
                     <div className="e-box" data-aos="fade-right" data-aos-duration="2000">
                         <h4>Apr 2023 - June 2023</h4>

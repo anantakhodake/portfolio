@@ -1,7 +1,6 @@
 .project{
     position: relative;
     width: 100%;
-    height: 100vh;
     padding: 2rem;
     background-color: transparent;
     
@@ -35,9 +34,9 @@
     
    }
 
-.div1{ background: rgb(228, 177, 177); border-radius: 1rem; height:280px}
-.div2{ background: rgb(177, 231, 210); border-radius: 1rem; height:280px}
-.div3{ background: rgb(192, 225, 232); border-radius: 1rem; height:280px}
+.div1{ background: rgb(228, 177, 177); border-radius: 1rem; height:300px}
+.div2{ background: rgb(177, 231, 210); border-radius: 1rem; height:300px}
+.div3{ background: rgb(192, 225, 232); border-radius: 1rem; height:300px}
 .div4{ background: rgb(234, 191, 211); border-radius: 1rem; height:300px}
 .div5{ background: rgb(234, 234, 197); border-radius: 1rem; height:300px}
 .div6{ background: rgb(235, 221, 194); border-radius: 1rem; height:300px}
@@ -135,7 +134,7 @@ main img{
     .project {
      margin-top: -67rem;
       padding: 20px;
-      height: 500vh;
+      height: 600vh;
     }
     
     .All-header {
