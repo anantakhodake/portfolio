@@ -1,4 +1,18 @@
-.n-right ul li:hover{
-    color: blue;
-    cursor: pointer;
+.right-wrapper ul li:hover{
+  color: blue;
+  cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    .n-wrapper {
+      display: none;
+    }
+    Menu{
+      display: none;
+    }
+    .right-wrapper ul li:hover{
+        color: blue;
+        cursor: pointer;
+    }
+
+  }

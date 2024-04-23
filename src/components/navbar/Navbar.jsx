@@ -4,7 +4,7 @@ import { Element, Link, ScrollLink } from 'react-scroll';
 
 function Navbar() {
   return (
-    <div className='navbar-wrapper px-3 py-3 flex justify-between ' id='Navbar'>
+    <div className='n-wrapper navbar-wrapper px-3 py-3 flex justify-between ' id='Navbar'>
         <div className='left-name'>
         <h1 className='text-2xl font-semibold text-slate-900'>Ananta <span className='text-2xl font-semibold text-blue-800'>Khodake</span></h1>
         </div>

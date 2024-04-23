@@ -8,10 +8,12 @@ import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
 import ProjectCard2 from "./components/project/ProjectCard2"
 import Footer from "./components/footer/FooterCard";
+import MobileNavbar from "./components/mobilenvabar/MobileNavbar";
 function App() {
   return (
     <div className="app">
       <Navbar/>
+      <MobileNavbar />
       <Intro />
       <Skill />
       <ProjectCard2 />
