@@ -29,6 +29,17 @@ const Experience = () => {
                     <div className="blur-e2"></div>  
                     </div>
                 </div>
+                <div className="contents" id="Experience">
+                    <div className="e-box" data-aos="fade-right" data-aos-duration="2000">
+                        <h4>AUG 2023 - Present</h4>
+                        <h3>INVENTZO SYSTEMS (INDIA) PRIVATE LIMITED</h3>
+                        <h5>FULLSTACK DEVELOPER</h5>
+                        <p>As a Full Stack Developer, I specialize in designing, developing, and deploying scalable, user-focused web applications. I work on the front-end and back-end to guarantee seamless integration, functionality, and performance.</p>
+                        <p>Make dynamic and responsive web apps with HTML, CSS, JavaScript, React.js, and Node.js/Express.js. Develop and implement RESTful APIs to enable efficient client-server data transfer. Ensure data integrity and effective searches by managing databases such as PostgreSQL, MySQL, and MongoDB.</p>
+                    <div className="blur-e"></div>
+                    <div className="blur-e2"></div>  
+                    </div>
+                </div>
                 
             </section>
         </div>

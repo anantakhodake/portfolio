@@ -23,9 +23,8 @@ function Intro() {
         {/* personal detail */}
         <div className="detail-container">
           <p className="text-lg text-gray-950">
-            A meticulous & organized fresher passionate about learning and implementing new technologies.
-            A bachelor's degree in computer science and engineering has improve my proficiency in technical skills and i am looking forward to 
-            to working in a competative envirnment that motivates me to enhance my technical knowledge.
+            I have been designing, creating, and managing scalable online applications for more than two years as a Full Stack Developer. 
+            My areas of experience are back-end programming with Node.js, Express.js, and RESTful APIs, and front-end development with React.js, JavaScript, HTML, and CSS.
           </p>
         </div>
         {/* social media links linkdin github and resume */}
