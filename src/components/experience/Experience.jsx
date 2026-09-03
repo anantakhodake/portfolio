@@ -29,6 +29,7 @@ const Experience = () => {
                     <div className="blur-e2"></div>  
                     </div>
                 </div>
+                
             </section>
         </div>
     </div>

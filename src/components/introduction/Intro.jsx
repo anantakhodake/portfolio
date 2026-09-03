@@ -31,7 +31,7 @@ function Intro() {
         {/* social media links linkdin github and resume */}
         <div className="icons flex gap-4">
           <a
-            href="https://drive.google.com/file/d/1fgXy8MjlIF4q6vOE2_i_06UxujWAVmFG/view?usp=drive_link"
+            href="https://drive.google.com/file/d/10tt-dGcdmQvgVsAOwQ-RAWGeEVbBd58q/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

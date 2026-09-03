@@ -13,6 +13,7 @@ import img8 from "../img/sql.png";
 import img9 from "../img/php.png";
 import img10 from "../img/react.png";
 import img11 from "../img/postman.png";
+import img12 from "../img/java.jpg";
 import { ReactTyped } from "react-typed";
 
 function Skill() {
@@ -49,6 +50,9 @@ function Skill() {
     },
     {
       image: img11,
+    },
+     {
+      image: img12,
     },
   ];
   return (
