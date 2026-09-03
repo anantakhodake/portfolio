@@ -23,7 +23,7 @@ function Intro() {
         {/* personal detail */}
         <div className="detail-container">
           <p className="text-lg text-gray-950">
-            I have been designing, creating, and managing scalable online applications for more than two years as a Full Stack Developer. 
+            I have been designing,  creating, and managing scalable online applications for more than two years as a Full Stack Developer. 
             My areas of experience are back-end programming with Node.js, Express.js, and RESTful APIs, and front-end development with React.js, JavaScript, HTML, and CSS.
           </p>
         </div>
