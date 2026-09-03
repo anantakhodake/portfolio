@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Navbar.css";
-import { Element, Link, ScrollLink } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   return (

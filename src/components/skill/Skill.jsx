@@ -1,7 +1,5 @@
 import React from "react";
 import "./Skill.css";
-import css from "../img/cpp.png";
-
 import img1 from "../img/cpp.png";
 import img2 from "../img/css.png";
 import img3 from "../img/git.png";

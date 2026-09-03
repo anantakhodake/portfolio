@@ -1,5 +1,5 @@
 import React from 'react'
-import Typed, { ReactTyped } from 'react-typed';
+import { ReactTyped } from 'react-typed';
 import './ProjectCard2.css'
 import Card from './Card';
 import IMG1 from '../img/imageg.jpg';

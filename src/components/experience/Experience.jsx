@@ -1,6 +1,5 @@
 import React from "react";
 import "./Experience.css";
-import Aos from "aos";
 import 'aos/dist/aos.css'
 import  { ReactTyped } from 'react-typed';
 
