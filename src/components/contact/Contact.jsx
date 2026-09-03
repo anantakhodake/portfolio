@@ -19,7 +19,7 @@ function focusFun() {
 
 function blurFun() {
   let parent = this.parentNode;
-  if (this.value == "") {
+  if (this.value === "") {
     parent.classList.remove("focus");
   }
 }
@@ -77,10 +77,10 @@ function Contact() {
                 <a href="https://github.com/anantakhodake">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ananta-khodake-a8ab73229/">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ananta-khodake-a8ab73229/">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
