@@ -106,6 +106,10 @@
     z-index: 1000;
     transition: 0.5s;
  }
+ .input-container label {
+  background-color: #19b89f;
+  padding: 0 8px;
+}
 
  .input-container.textarea label{
     top: 1rem;
