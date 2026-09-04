@@ -162,14 +162,12 @@
  .input-container span::after{
     right: 50%;
  }
-
- .input-container.focus  label{
-    top: 0;
-    left: 25px;
-    transform: translateY(-50%);
-    font-size: 0.8rem;
-
- }
+.input-container:focus-within label {
+  top: 0;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+}
  .input-container.focus span::before,.input-container.focus span::after{
     width: 50%;
     opacity: 1;
