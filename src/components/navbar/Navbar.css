@@ -16,3 +16,49 @@
     }
 
   }
+
+  /* for mobiles */
+
+@media screen and (max-width: 600px) {
+
+  .n-wrapper {
+    padding: 12px 20px;
+  }
+
+  .right-wrapper {
+    display: none;
+  }
+
+  .Menu {
+    display: block;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .n-wrapper {
+    justify-content: space-between;
+  }
+
+}
+/* for tablet */
+
+@media screen and (max-width: 900px) {
+
+  .n-wrapper {
+    padding: 15px 4%;
+  }
+
+  .right-wrapper ul {
+    gap: 18px;
+  }
+
+  .right-wrapper ul li {
+    font-size: 15px;
+  }
+
+  .Menu {
+    display: block;
+    cursor: pointer;
+  }
+
+}

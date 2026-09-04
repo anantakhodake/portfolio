@@ -112,11 +112,6 @@ main.row{
     font-weight: bold;
     color: #fff;
   }
-  @media screen and (max-width: 1024px) {
-    .container-experience {
-      margin-top: -25rem;
-    }
-  }
     
 @media(max-width: 768px){
     main.row{
@@ -142,7 +137,6 @@ main.row{
         position: relative;
         width: 100%;
         min-height: 100vh;
-        margin-top: 35%;
         padding: 1rem;
         background-color: transparent;
         overflow: hidden;

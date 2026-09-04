@@ -132,9 +132,7 @@ main img{
 
   @media screen and (max-width: 767px) {
     .project {
-     margin-top: -67rem;
       padding: 20px;
-      height: 600vh;
     }
     
     .All-header {
