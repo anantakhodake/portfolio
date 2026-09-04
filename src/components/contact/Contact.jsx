@@ -33,6 +33,8 @@ function Contact() {
   useEffect(()=>{
     Aos.init();
   },[])
+
+ 
   return (
     <div>
       <div className="flex justify-center items-center mt-8">
@@ -89,31 +91,66 @@ function Contact() {
           <div className="contact-form">
             <span className="circle one"></span>
             <span className="circle two"></span>
-            <form action="index.html">
-              <h3 className="title">Contact Us</h3>
-              <div className="input-container ">
-                <input type="text" className="input" name="name" />
-                <label for="">Username</label>
-                <span>Username</span>
-              </div>
-              <div className="input-container">
-                <input type="email" className="input" name="email" />
-                <label for="">Email</label>
-                <span>Email</span>
-              </div>
-              <div className="input-container">
-                <input type="tel" className="input" name="phone" />
-                <label for="">Phone</label>
-                <span>Phone</span>
-              </div>
-              <div className="input-container textarea">
-                <textarea className="input" name="message"></textarea>
-                <label for="">Message</label>
-                <span>Message</span>
-              </div>
+           <form action="https://api.web3forms.com/submit" method="POST">
+  
+  <input
+    type="hidden"
+    name="access_key"
+    value="d95a3d00-7f89-4756-a5c6-deb54065d6b0"
+  />
 
-              <input type="submit" className="cbtn" value="send" />
-            </form>
+  <h3 className="title">Contact Us</h3>
+
+  <div className="input-container">
+    <input
+      type="text"
+      className="input"
+      name="name"
+      required
+    />
+    <label htmlFor="name">Username</label>
+    <span>Username</span>
+  </div>
+
+  <div className="input-container">
+    <input
+      type="email"
+      className="input"
+      name="email"
+      required
+    />
+    <label htmlFor="email">Email</label>
+    <span>Email</span>
+  </div>
+
+  <div className="input-container">
+    <input
+      type="tel"
+      className="input"
+      name="phone"
+    />
+    <label htmlFor="phone">Phone</label>
+    <span>Phone</span>
+  </div>
+
+  <div className="input-container textarea">
+    <textarea
+      className="input"
+      name="message"
+      required
+    ></textarea>
+
+    <label htmlFor="message">Message</label>
+    <span>Message</span>
+  </div>
+
+  <input
+    type="submit"
+    className="cbtn"
+    value="Send"
+  />
+
+</form>
           </div>
         </div>
       </div>
